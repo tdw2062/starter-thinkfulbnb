@@ -112,11 +112,16 @@ form button {
   font-size: 24px;
   padding: 15px;
   width: 100%;
+  text-align: center;
 }
 
 .row-line {
   display: flex;
   justify-content: space-between;
+}
+
+#submitBtn {
+  text-align: center;
 }
 
 /* -------  Footer ------- */
@@ -148,6 +153,10 @@ footer p {
     flex-direction: column;
   }
 
+  form button {
+    flex: 1;
+  }
+
   form select,
   form input {
     margin-bottom: 20px;
@@ -157,14 +166,6 @@ footer p {
   #flex-group {
     display: flex;
     justify-content: flex-start;
-    align-content: flex-start;
-    align-items: flex-start;
-  }
-
-  .item-center {
-    align-self: flex-start;
-    justify-content: flex-start;
-    align-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
   }
 }
