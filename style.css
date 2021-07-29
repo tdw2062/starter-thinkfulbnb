@@ -60,7 +60,7 @@ header {
 
 .logo {
   font-family: "Pangolin", cursive;
-  font-size: 72px;
+  font-size: 60px;
   color: #fff;
 }
 
@@ -149,23 +149,35 @@ footer p {
 
   .row-line {
     flex: 1;
-    margin: 10px;
+    margin: 0px;
     flex-direction: column;
   }
 
   form button {
     flex: 1;
-  }
-
-  form select,
-  form input {
-    margin-bottom: 20px;
-    width: 100%;
+    width: 150px;
+    align-self: flex-end;
   }
 
   #flex-group {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+  }
+
+  header {
+    background-color: #ff385c;
+    padding: 0px;
+    justify-content: flex-start;
+    text-align: left;
+  }
+
+  .item-center {
+    border: 0px;
+    margin: 10px;
+  }
+
+  header nav {
+    justify-content: flex-end;
   }
 }

@@ -21,7 +21,7 @@
     <header>
       <div id="flex-group">
         <div class="logo item">Thinkfulbnb</div>
-        <nav class="item">
+        <nav class="item flex-end">
           <ul id="menu">
             <li><a href="#stay">Stay</a></li>
             <li><a href="#about">About</a></li>
@@ -50,11 +50,11 @@
           </div>
           <div class="row-line" name="row-line">
             <label for="arrive">Arrive: </label>
-            <input class="self-flex-end" id="arrive" type="text" name="arrive"/>
+            <input class="self-flex-end" id="arrive" type="date" name="arrive"/>
           </div>
           <div class="row-line" name="row-line">
             <label for="depart">Depart: </label>
-            <input class="self-flex-end" id="depart" type="text" name="depart"/>
+            <input class="self-flex-end" id="depart" type="date" name="depart"/>
           </div>
           <div class="row-line" name="row-line">
             <label for="type">Type: </label>
@@ -68,8 +68,13 @@
               <option value="yurt">Yurt</option>
             </select>
           </div>
+          <div class="row-line" name="row-line">
+            <button type="submit">Search</button>
+          </div>
+             
          
-          <button type="submit">Search</button>
+         
+          
         </form>
       </section>
 
